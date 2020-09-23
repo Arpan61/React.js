@@ -7,7 +7,7 @@ import Details from "./Details";
 const App = () => {
   return (
     <React.StrictMode>
-      <div id="something-important">
+      <div className="search-params form">
         <header>
           <Link to="/">Adopt Me!</Link>
         </header>

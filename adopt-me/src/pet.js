@@ -6,7 +6,7 @@ export default function pet({ name, animal, breed, media, location, id }) {
   }
 
   return (
-    <a href={`\details\${id}`} calssname="pet">
+    <a href={`/details/${id}`} calssname="pet">
       <div className="image-container">
         <img src={hero} alt={name}></img>
       </div>
